@@ -1,0 +1,289 @@
+/*google font link*/
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/**************global css****************/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h1,h2{
+	font-family: 'Alfa Slab One', cursive;
+
+}
+h3,h4,h5,h6,a{
+	font-family: 'Bebas Neue', cursive;
+}
+span,p,input,{
+	font-family: 'Montserrat', sans-serif;
+}
+a,a;hover{
+	text-decoration:none; 
+}
+
+
+/****************<!-- header part start here -->*********/
+header{
+	width: 100%;
+	background-size: cover;
+	background-image: url(../img/banner.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+
+}
+nav{
+	padding: 25px 0!important;
+}
+.nav-item{
+	margin: 20px 0;
+}
+.nav-link{
+	font-weight: 600;
+	font-size: 18px;
+	font-family: 'Bebas Neue', cursive;
+	text-transform: uppercase;
+}
+
+/***********<!-- header part end here -->********/
+/***********<!-- banner serction css  here -->********/
+.banner{
+	width: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	height: 60vh;
+
+
+} 
+.banner h3.pre-title{
+	font-size: 18px;
+	display: inline-block;
+	padding: 5px;
+	border: 2px dashed;
+    color: #3d2514;
+
+
+}  
+.banner h1.title{
+	font-size: 87px;
+	color: #3d2514;
+	text-shadow: 2px 4px #fee8bb;
+
+} 
+.banner h2.sub-title{
+	font-size: 43px;
+	color: #3d2514;
+	text-shadow: 2px 4px #fee8bb;
+
+}
+/***********<!-- burger blog css  here -->********/
+.burger-blog{
+	width: 100%;
+	padding: 40px 0;
+
+}
+.blog-info, .upper-post,.lower-post{
+	position: relative;
+	
+}
+.blog-title{
+	position: absolute;
+    top: 23px;
+    left: 13px;
+    color: white;
+    text-transform: uppercase;
+}
+.blog-title h3{
+	font-size: 43px;
+}
+.upper-post{
+	margin-bottom: 30px;
+}
+.upper-post .blog-title h3, .lower-post.blog-title h3{
+	line-height:32px; 
+	font-size:32px;
+}
+.blog-button{
+	text-align: center;
+	margin: 40px 0;
+}
+button{
+	padding: 10px 30px !important;
+	color: #3d2514 !important;
+	text-transform: uppercase;
+	font-family: 'Bebas Neue', cursive;
+}
+.btn-primary{
+	background:#ffc045 !important;
+	border-radius:0 !important; 
+	border: 1px solid #ffc045 !important;
+
+}
+/***********<!-- order now css  here -->********/
+.order-now{
+	width: 100%;
+	text-align: center;
+}
+.order-now h1{
+	color: #3d2514;
+	margin-bottom: 20px: 
+}
+.top, .bottom {
+	margin-bottom: 40px,
+}
+
+.order-now button{
+    font-family: 'Alfa Slab One', cursive;
+    background: red;
+    border: 1px solid red;
+    color: white !important;
+}
+/* event section css*/
+.event{
+	width: 100%
+	margin-top:20px;
+	padding: 90px 0;
+	text-align: left !important;
+	
+}
+.event h1{
+	color: #3d2514;
+
+}
+.event-info{
+	padding: 50px 20px;
+	transition: all ease-in-out;
+}
+.event-body{
+	transition: all ease-in-out;
+}
+.event-body:hover{
+	box-shadow: 6px 5px 10px 0 rgba(0,0,0,0.7);
+	transition: all ease-in-out;
+
+}
+
+
+.owl-theme .owl-nav {
+	margin-top: 10px;
+	display: none;
+}
+.owl-theme .owl-dots{
+	text-align: left;
+}
+.owl-dots{
+	position: absolute;
+	bottom: 0;
+	left: 40px;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+	background: #ffc045;
+}
+.owl-theme .owl-dots .owl-dot.active span{
+ background: #ffc045 !important;
+}
+
+
+/*/ *******   form info css here ****  /*/
+.from{
+	width: 100%;
+	background-image: url(../img/img7.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 80vh;
+	margin-top: 60px;
+}
+.form-info{
+	text-align: center;
+	color: #3d2514;
+	margin-top: 50px;
+}
+.form-input{
+	text-align: center;
+	margin: 150px 290px;
+	width: 50%;
+}
+.form-control{
+	font-family: 'Bebas Neue', cursive;
+
+}
+.button-control{
+	background: #bf2222;
+	padding: 7px 70px;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	font-family: 'Alfa Slab One', cursive;
+}
+
+       /*   burger house css here*/
+
+
+.burger-house{
+     width: 100%;
+}
+.container-1{
+		width: 1140px;
+		background: url(../img/img8.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 50vh;
+		margin: 0 auto;
+		margin-top: 50px;
+}
+.logo{
+	width: 60%;
+	margin: 40px 10px;
+}
+.text{
+	margin: 0 40px;
+	color: #f5f5f5!important;
+	font-size: 15px;
+}
+
+.contact{
+	margin-top: 170px;
+	margin-left: 170px;
+}
+.contact ul li{
+	color: white;
+	font-family: 'Bebas Neue', cursive;
+    font-weight: 600px;	
+    list-style: none;
+	font-weight: 500;
+	cursor: pointer;
+	float: right;
+	margin-right: 35px;				
+}
+.contact ul li i{
+	margin-right: 10px;
+}
+.company{
+	margin-top: 40px;
+}
+.company a{
+	color: #f5f5f5;
+	margin: 0 40px;
+	font-size: 20px;
+	font-family: 'Bebas Neue', cursive;
+}
+.social-icon ul li i{
+	list-style: none;
+	display: inline-block;
+	color: black;
+	height: 25px;
+	width: 25px;
+	background: white;
+	border-radius: 60px;
+	text-align: center;
+	line-height:25px;
+	cursor: pointer;
+	margin-top: 190px;
+
+}
+
+
+img{
+	margin-top: 25px !important;
+}
